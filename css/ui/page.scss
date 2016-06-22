@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    $PAGE
+\*------------------------------------*/
+html{
+    font-family:$brand-face;
+    font-weight:300;
+    color:#555;
+    background-color:#fff;
+}
+
+body{
+    max-width:1200px;
+    margin:0 auto;
+    padding:$base-spacing-unit;
+    padding-bottom:0;
+    
+    @include media-query(portable){
+        padding-right:$half-spacing-unit;
+        padding-left: $half-spacing-unit;
+        max-width:720px;
+    }
+}

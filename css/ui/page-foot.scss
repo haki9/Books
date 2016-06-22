@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    $PAGE-FOOT
+\*------------------------------------*/
+.page-foot{
+    @include font-size(12px);
+    color:#999;
+
+    a{
+        color:inherit;
+
+        &:hover,
+        &:active,
+        &:focus{
+            color:$brand-color;
+        }
+    }
+}

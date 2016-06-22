@@ -1,0 +1,7 @@
+root: http://0.0.0.0:4000/
+root: http://inuitcss.com/
+auto: true
+server: true
+markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:title

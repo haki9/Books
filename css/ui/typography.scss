@@ -1,0 +1,32 @@
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+h1,h2,h3,h4,h5,h6{
+    font-weight:300;
+    color:$brand-color;
+}
+.site-title{
+    @extend .landmark;
+    @include media-query(portable){
+        @include font-size(32px);
+    }
+}
+b,strong,a{
+    font-weight:500;
+}
+a{
+    color:$brand-color;
+}
+
+pre{
+    white-space:pre;
+    word-wrap:normal;
+    background-color:#333;
+    color:#fff;
+    padding:$half-spacing-unit;
+    border-radius:$brand-round;
+}
+pre,code,kbd,samp{
+    font-family:Inconsolata, Monaco, Consolas, "Andale Mono",
+                "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
