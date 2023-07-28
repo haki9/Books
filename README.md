@@ -1,4 +1,4 @@
 
-# Kho sách
+# Books Store
+This repository contains books about JavaScript, Python, and SEO. 
 
-Lưu trữ các sách hay về lập trình và cuộc sống
